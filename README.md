@@ -55,7 +55,10 @@ flowchart LR
 
 | Repo | What |
 |---|---|
-| [**embedded-systems-labs**](https://github.com/Bugee03/embedded-systems-labs) | STM32 (register level, PWM → RC → ADC → UART), MSP430 ↔ STM32 I²C/SPI/UART, ESP32 ESP‑IDF, 8051 ASM + C, VHDL |
+| [**embedded-systems-labs**](https://github.com/Bugee03/embedded-systems-labs) | STM32 register level, Nuvoton M031 (24 projects), MSP430 ↔ STM32 I²C/SPI/UART, ESP32, 8051 ASM + C, VHDL, Basys 3 FPGA course |
+| [**telecom-dsp-labs**](https://github.com/Bugee03/telecom-dsp-labs) | I/Q & QPSK, Hamming (7,4) over a noisy channel, FIR/IIR filters (ECG, equalizer), white noise, source coding |
+| [**pcb-design-kicad**](https://github.com/Bugee03/pcb-design-kicad) | my KiCad 10 course + `pcb_calc.py` (IPC‑2221 width, microstrip Z₀, CPWG) and `kicad_inspect.py` |
+| [**control-systems-labs**](https://github.com/Bugee03/control-systems-labs) | DC motor: transfer function, state space, canonical forms, PID (MATLAB / Simulink); Bode, Nyquist, root locus |
 | [**esp32-ultrasonic-wifi-monitor**](https://github.com/Bugee03/esp32-ultrasonic-wifi-monitor) | ESP32 + HC‑SR04, Wi‑Fi, HTTP endpoint, live web client, MQTT variant |
 | [**jump-analyzer-imu**](https://github.com/Bugee03/jump-analyzer-imu) | wearable jump analyzer: STM32F103 + MPU‑9250 + 2× HX711 load cells (KiCad) |
 | [**power-electronics-hv**](https://github.com/Bugee03/power-electronics-hv) | LTspice: voltage doubler, 3‑stage cascaded HV test transformer |
@@ -70,8 +73,8 @@ flowchart LR
 |---|---|
 | **RF / SDR** | HackRF One, NanoVNA, spectrum analyzer, Yagi & wideband antennas |
 | **Hardware** | KiCad 10 (4‑layer, Gerber/BOM/CPL), LTspice |
-| **MCU / FPGA** | STM32 (CubeIDE, bare metal), ESP32 (ESP‑IDF, FreeRTOS), MSP430 (CCS), 8051 (SDCC), Basys 3 (VHDL, GHDL) |
-| **Software** | Python (NumPy, SciPy, Matplotlib, Qt), C, C++, MATLAB, Git, Linux (Fedora), macOS terminal |
+| **MCU / FPGA** | STM32 (CubeIDE, bare metal), Nuvoton M031 (gcc + pyOCD), ESP32 (ESP‑IDF, FreeRTOS), MSP430 (CCS), 8051 (SDCC), Basys 3 (VHDL, Verilog) |
+| **Software** | Python (NumPy, SciPy, Matplotlib, Qt, Jupyter), C, C++, MATLAB / Simulink, Git, Linux (Fedora), macOS terminal |
 | **Buses & links** | UART, SPI, I²C, Wi‑Fi, MQTT · designed: CAN‑FD, LoRa |
 
 ## 🌱 Now
